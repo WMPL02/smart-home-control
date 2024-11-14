@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Control</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS for styling -->
+</head>
+<body>
+    <h1>Smart Home Control Panel</h1>
+    <div id="lights-section">
+        <h2>Light Controls</h2>
+        <button onclick="toggleLight(1)">Light 1</button>
+        <button onclick="toggleLight(2)">Light 2</button>
+        <button onclick="toggleLight(3)">Light 3</button>
+        <button onclick="toggleLight(4)">Light 4</button>
+        <button onclick="toggleLight(5)">Light 5</button>
+    </div>
+    <div id="water-tank-section">
+        <h2>Water Tank Level</h2>
+        <p id="water-level">Loading...</p>
+    </div>
+    <div id="motor-control-section">
+        <h2>Motor Control</h2>
+        <button onclick="toggleMotor()">Turn Motor On/Off</button>
+    </div>
+    <script src="script.js"></script> <!-- Link to JavaScript for interaction -->
+</body>
+</html>
